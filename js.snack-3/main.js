@@ -2,6 +2,7 @@
 Il programma stampa la somma di tutti i numeri inseriti.
 Javascript - JS*/
 
+
 for (let i = 0; i < 10; i++) {
     
     let chosenNumber = prompt("Inserisci un numero...");
