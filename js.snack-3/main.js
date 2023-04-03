@@ -2,6 +2,7 @@
 Il programma stampa la somma di tutti i numeri inseriti.
 Javascript - JS*/
 
+let sum = 0;
 
 for (let i = 0; i < 10; i++) {
     
@@ -10,4 +11,8 @@ for (let i = 0; i < 10; i++) {
     let number = parseInt(chosenNumber);
     
     console.log(number);
+
+    sum = sum + number; 
 };
+
+console.log(sum);
