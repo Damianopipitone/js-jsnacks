@@ -2,9 +2,9 @@ let x = [];
 
 for (let i = 0; i <= 6; i ++) {
     
-    let choseNumber = prompt("Inserisci un numero...");
+    let chosenNumber = prompt("Inserisci un numero...");
 
-    let number = parseInt(choseNumber);
+    let number = parseInt(chosenNumber);
     
     if (number % 2 != 0) {
         x.push(number);

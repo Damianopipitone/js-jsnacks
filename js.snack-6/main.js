@@ -2,9 +2,9 @@ let random = Math.floor(Math.random()*10 + 1);
 
 console.log(random);
 
-let choseNumber = prompt ("Inserisci un numero....");
+let chosenNumber = prompt ("Inserisci un numero....");
 
-let number = parseInt(choseNumber);
+let number = parseInt(chosenNumber);
 
 if (random == number) {
     console.log("Hai vinto!");
